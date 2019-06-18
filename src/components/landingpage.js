@@ -17,27 +17,27 @@ class Landingpage extends Component{
             <h1>Web Developer</h1>
 
                 <hr/>
-                <p> HTML/CSS | JavaScript | React | Angular | Java EE | SQL </p>
+                <p> HTML / CSS | JavaScript | React | Angular | Java EE | SQL </p>
 
                 <div class="social-links">
 
                 {/* LinkedIn */}
-                <a href="http://google.com" rel="noopener noreferrer"target="_blank">
+                <a href="https://www.linkedin.com/in/robin-svensson-4a0916165/" rel="noopener noreferrer"target="_blank">
                 <i className="fa fa-linkedin-square"  aria-hidden="true"/>
                 </a>
 
                 {/* Github */}
-                <a href="http://google.com" rel="noopener noreferrer"target="_blank">
+                <a href="https://github.com/Swesson92" rel="noopener noreferrer"target="_blank">
                 <i className="fa fa-github-square"  aria-hidden="true"/>
                 </a>
 
                 {/* Instagram */}
-                <a href="http://google.com" rel="noopener noreferrer"target="_blank">
+                <a href="https://www.instagram.com/swesson92/?hl=sv" rel="noopener noreferrer"target="_blank">
                 <i className="fa fa-instagram" aria-hidden="true"/>
                 </a>
 
                 {/* Youtube */}
-                <a href="http://google.com" rel="noopener noreferrer"target="_blank">
+                <a href="https://www.youtube.com/channel/UCBytif0ryd8uYAs_y8KCUgQ?view_as=subscriber" rel="noopener noreferrer"target="_blank">
                 <i className="fa fa-youtube-square"  aria-hidden="true"/>
                 </a>
 
