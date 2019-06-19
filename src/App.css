@@ -23,7 +23,19 @@ height: 100%;
 }
 
 .fa-instagram:hover {
-  color: rgb(0, 140, 255);
+color: #fd1d1d; 
+}
+
+.fa-youtube-square:hover {
+  color: red;
+}
+
+.fa-linkedin-square:hover {
+  color: #0077B5;
+}
+
+.fa-github-square:hover {
+  color: #4078c0;
 }
 
 .banner-text {
@@ -37,17 +49,18 @@ height: 100%;
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  font-family: Garamond;  color: white;
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted aqua;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
   color: white;
+  font-family: Garamond;
   font-size: 20px;
   padding: 1em;
 }
@@ -77,4 +90,11 @@ height: 100%;
 
 .projects-angular {
   display: flex;
+}
+
+.gittis {
+  color: white;
+  font-size: 2em;
+  padding: 8xp;
+
 }
