@@ -22,6 +22,10 @@ height: 100%;
   padding-top: 5em;
 }
 
+.fa-instagram:hover {
+  color: rgb(0, 140, 255);
+}
+
 .banner-text {
   background-color: black;
   opacity: .8;
@@ -61,4 +65,16 @@ height: 100%;
   font-size: 5em;
   padding: 8xp;
 
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.projects-java {
+  display: flex;
+}
+
+.projects-angular {
+  display: flex;
 }
