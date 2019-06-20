@@ -32,7 +32,8 @@ class Projects extends Component{
 <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>Website about me</CardTitle>
     <CardText>
-        Building a website in React to learn further about the framework. The idea with this project is to continue implement functions and different things to do on the site.
+        Building a website in React to learn further about the framework. 
+        The idea with this project is to continue implement functions and different things to do on the site.
     </CardText>
     <CardActions border>
     <div className="gittis">
@@ -79,7 +80,8 @@ class Projects extends Component{
                     <CardText>
                     Five unemployed dudes with one given goal, one destination, 
                     to create a community for devoted video-game admirers to share their their thoughts and opinions. 
-                    This quest meant a long distance from society and human interraction, but since none of them were familiar with it anyway they took their equipment and settled in a deep dark dungeon in the dank forest of Scandanavia. 
+                    This quest meant a long distance from society and human interraction, 
+                    but since none of them were familiar with it anyway they took their equipment and settled in a deep dark dungeon in the dank forest of Scandanavia. 
                     ....legend says that they are stil in that dungeon
                     </CardText>
                     <CardActions border>

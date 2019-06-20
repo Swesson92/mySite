@@ -15,19 +15,21 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+
 }
 
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+  
 }
 
 .fa-instagram:hover {
-color: #fd1d1d; 
+color: #fcb045; 
 }
 
 .fa-youtube-square:hover {
-  color: red;
+  color: #ff0000;
 }
 
 .fa-linkedin-square:hover {
@@ -44,6 +46,7 @@ color: #fd1d1d;
   width: 40%;
   margin: auto;
   border-radius: 10px;
+  padding-top: 1em;
 }
 
 .banner-text h1 {
@@ -53,7 +56,7 @@ color: #fd1d1d;
 }
 
 .banner-text hr {
-  border-top: 5px dotted aqua;
+  border-top: 5px dotted gold;
   width: 50%;
   margin: auto;
 }
@@ -96,5 +99,40 @@ color: #fd1d1d;
   color: white;
   font-size: 2em;
   padding: 8xp;
+}
 
+.contact-body {
+  margin: auto;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+  
 }
