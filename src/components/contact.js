@@ -15,43 +15,40 @@ class Contact extends Component{
             style={{height: '250px'}}
             />
             <p style={{width: "75%" , margin: "auto", paddingTop: "1em" }}>
-            Hej!
-
-            Det här ett teest awdwdmawdopwaophmawfawgawgw
-            gwagawmglawglkawmgwkalglkawnglknawglkwang
-            wgklawlgkwaklgmwangawpogwa
-            
+            Hello!
+            <br></br>
+            Please use some of these options to contact me. 
             </p>
             </Cell>
             <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
 
-        <div className="contact.list">
+        <div className="contact-list">
 
             <List>
                 <ListItem>
-                    <ListItemContent style={{fontSize: "25px", fontFamily: 'Oxygen'}}>
+                    <ListItemContent style={{fontSize: "25px", color: "white",  fontFamily: 'Oxygen'}}>
                     <i className="fa fa-phone" aria-hidden="true"/>
                     0706-583177
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
-                    <ListItemContent style={{fontSize: "25px", fontFamily: 'Oxygen'}}>
-                    <i className="fa fa-phone" aria-hidden="true"/>
-                    0706-583177
+                    <ListItemContent style={{fontSize: "25px", color: "white", fontFamily: 'Oxygen'}}>
+                    <i className="fa fa-envelope" aria-hidden="true"/>
+                    robin.svensson06@gmail.com
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
-                    <ListItemContent style={{fontSize: "25px", fontFamily: 'Oxygen'}}>
-                    <i className="fa fa-phone" aria-hidden="true"/>
-                    0706-583177
+                    <ListItemContent style={{fontSize: "25px", color: "white", fontFamily: 'Oxygen'}}>
+                    <i className="fa fa-linkedin" aria-hidden="true"/>
+                    Robin Svensson | LinkedIn
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
-                    <ListItemContent style={{fontSize: "25px", fontFamily: 'Oxygen'}}>
-                    <i className="fa fa-phone" aria-hidden="true"/>
-                    0706-583177
+                    <ListItemContent style={{fontSize: "25px", color: "white", fontFamily: 'Oxygen'}}>
+                    <i className="fa fa-slack" aria-hidden="true"/>
+                    swesson92@gmail.com | Robin
                     </ListItemContent>
                 </ListItem>
             </List>

@@ -5,6 +5,18 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 
 }
 
+.drawer-color h2{
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.drawer-color i {
+  align-self: center;
+  font-size: 30px;
+}
+
 .landing-grid {
 background: #0F2027;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -17,6 +29,7 @@ width: 100%;
 height: 100%;
 
 }
+
 
 .avatar-img {
   height: 250px;
@@ -80,7 +93,6 @@ color: #fcb045;
   color: white;
   font-size: 5em;
   padding: 8xp;
-
 }
 
 .projects-grid {
@@ -101,9 +113,13 @@ color: #fcb045;
   padding: 8xp;
 }
 
+/* Contact CSS -----> */ 
+
 .contact-body {
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
   margin: auto;
-  background: grey;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -116,23 +132,41 @@ color: #fcb045;
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
-  color: black;
-  border: 2px solid red;
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  color: white;
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
   font-family: 'Oxygen', sans-serif;
+  color: white;
 }
 
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
+  color: white;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
   width: 50%;
   margin: auto;
-  
+
+}
+
+.contact-list i {
+  font-size: 40px;
+  padding-right: 5rem;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+.fa-slack:hover{
+  color: #3F0F3F;
+}
+
+.fa-phone:hover{
+  color: #24FE41;
 }
