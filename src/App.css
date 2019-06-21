@@ -30,7 +30,6 @@ height: 100%;
 
 }
 
-
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -111,6 +110,14 @@ color: #fcb045;
   color: white;
   font-size: 2em;
   padding: 8xp;
+}
+
+
+/* Resume CSS */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
 }
 
 /* Contact CSS -----> */ 

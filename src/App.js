@@ -13,7 +13,7 @@ class App extends Component {
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/aboutme">About me</Link>
+                <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
@@ -21,8 +21,8 @@ class App extends Component {
         <h2>Built with MacBook Pro & React</h2>
         <i class="fa fa-apple"></i>
             <Navigation>
+                <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/aboutme">About me</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
