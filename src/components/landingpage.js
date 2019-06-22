@@ -20,7 +20,7 @@ class Landingpage extends Component{
             <h1>Web Developer</h1>
 
                 <hr/>
-                <p> HTML / CSS | JavaScript | React | Angular | Java EE | SQL </p>
+                <p> JavaScript | React | Angular | Java | HTML / CSS </p>
 
                 <div class="social-links">
 

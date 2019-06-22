@@ -19,7 +19,7 @@ class Contact extends Component{
             Hello there! 
             <br></br>
             My name is Robin and I am a newly educated Java/Web Devevloper, still looking for a future job.
-            I am 27 years old and live in Sweden. Beside programming, I am a big fan of Hockey, Football and Travel.
+            I am 27 years old and live in Sweden. Beside programming, I am a big fan of Hockey, Football and to Travel.
             <br></br>
             If you find this website or me interesting, please contact me through any of the options to the right. 
             </p>

@@ -33,7 +33,7 @@ height: 100%;
 .avatar-img {
   height: 350px;
   padding-top: 5em;
-border-radius: 15px;  
+  border-radius: 15px;  
 }
 
 .fa-instagram:hover {
@@ -116,11 +116,26 @@ color: #fcb045;
 /* Resume CSS */
 
 .resume-right-col {
-  background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
   color: white;
+  border-radius: 15px;  
+
 }
+
+.resume-left-col {
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  color: white;
+  border-radius: 15px;  
+
+}
+.testings {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
 
 
 /* Contact CSS -----> */ 
@@ -180,3 +195,4 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 .fa-phone:hover{
   color: #24FE41;
 }
+

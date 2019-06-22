@@ -1,40 +1,49 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
+import {Grid, Cell, Chip} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import cvbild from './assets/cvbild.jpg';
 
 
 class Resume extends Component{
     render(){
         return(
-            <div>
+            <div className="testings">
                 <Grid>
-                    <Cell col={4}>
+                    <Cell className="resume-left-col" col={4}>
                     <div style={{textAlign: 'center'}}>
                     <img 
-            src="https://www.pngarts.com/files/3/Cool-Avatar-Transparent-Image.png"
+            src={cvbild}
             alt="avatar"
-            style={{height: '200px'}} />
+            className="cvbild"
+            style={{height: '300px'}} />
                     </div>
-                    <h2 style={{paddingTop: '2em'}}>Robin Svensson</h2>
-                    <h4 style={{color: 'grey'}}>Programmer</h4>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                    <h2 style={{paddingTop: '1em'}}>Robin Svensson</h2>
+                    <h4 style={{color: 'grey'}}>Web Developer</h4>
                     <p>
-                        wfjwaifiawifiawoawkgokawogkpaowgkoapwgkpoawgkpoawkgpao
-                        gawgawgopawogopawgokpaowkgaokpgaopagopagawdawfga
-                        wgawga
-                        wgawgawg
-                        awgawaw
+                     Robin is a Junior Java/Web developer with a passion for agile methodology.
+                     He has experience working with both backend(Java), frontend (Angular/React) and Javascript development. 
+                     Robin is fond of creating value from data and display it in different forms.
+                     He has been working with software solutions over the past year, with customers like Volvo Parts, where
+                     he was tasked with analysing and creating software to tackle counterfeit products. 
                     </p>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                    <h5>Address</h5>
-                    <p>Fjällgatan 30, Gothenburg</p>
-                    <h5>Phone</h5>
-                    <p>+467 06583177</p>
-                    <h5>Email</h5>
-                    <p>robin.svensson06@gmail.com</p>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
+                    <hr style={{borderTop: '3px solid #009FFF', width: '50%'}} />
+                    <h5>Nationality</h5>
+                    <p>Swedish</p>
+                    <h5>Language</h5>
+                    <p>English (fluent), Swedish (fluent), Spanish(beginner)</p>
+                    <h5>Interests and hobbies</h5>
+                    <p>Music, Cars, Floorball, Hockey, Technology and to travel the world</p>
+                    <h5>Personal qualities</h5>
+                    <p>Collaborative, team-oriented, supportive, positive and loyal</p>
+                    <hr style={{borderTop: '3px solid #009FFF', width: '50%'}} />
+                    <h5>Tools and OS</h5>
+                    <Chip style={{background: '#009FFF' , color: 'white'}}>Visual Studio Code</Chip>
+                    <Chip style={{background: '#009FFF',color: 'white'}}>IntelliJ</Chip>
+                    <br></br>
+                    <Chip style={{background: '#009FFF',color: 'white'}}>MacOs</Chip>
+                    <Chip style={{background: '#009FFF',color: 'white'}}>Windows 10</Chip>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                     <h2>Education</h2>
@@ -55,20 +64,35 @@ class Resume extends Component{
                     schoolDescription="Society Program"
                     
                     />
-                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
+                <hr style={{borderTop: '3px solid #c31432', width: '50%'}} />
 
                     <h2>Professional Experience</h2>
                     <Experience 
                     startYear={2018}
                     endYear={2019}
-                    jobName="Web Developer at Alten Sweden"
-                    jobDescription="Under a 6 month period I worked at a Consulting Company here in Sweden. Under these months i worked
-                    in two different projects. The first project I built an backend service in Java/SpringBoot connected to an Android Application
-                     written in Java. The second project I developed a Web Application in Angular 7, connected to a backend written in Python 3."
+                    jobName="Software developer with Alten/Volvo Parts"
+                    jobDescription="I worked on a software solution for Volvo Parts to tackle their problem with counterfeit products. 
+                    The main goal was to reduce counterfeit products from 5% to 1-2% with this software. 
+                    I created an Android application connected to backend services. 
+                    The idea was that when products arrive at Volvo or their retailer the product will be scanned by the Android app and return if the product delivered is fake or legit.
+                    A lot of thinking and discussion were included in the project, mainly for security and scalability reasons."
                     
                     />
 
-                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
+                    <Experience 
+                    startYear={2018}
+                    endYear={2019}
+                    jobName="Developer for Alten Monitoring System"
+                    jobDescription="Currently working in a project called AMS, which is a monitoring system for different services and applications.
+                    This project is written with Python 3 and 
+                    includes a backend and a Celery part where we fetch data continuously and are able to add services and applications for monitoring.
+                    Relevant data is later shown in our frontend client, written with Angular 7.
+                    The purpose with developing this application is to collect and show all different services currently running in one place,
+                    called Alten Monitoring System."
+                    
+                    />
+
+                <hr style={{borderTop: '3px solid #c31432', width: '50%'}} />
                 <h2>Primary qualifications</h2>
                 <Skills 
                 skill="Javascript"
