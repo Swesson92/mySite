@@ -31,9 +31,10 @@ height: 100%;
 }
 
 .avatar-img {
-  height: 250px;
+  height: 350px;
   padding-top: 5em;
-  
+  border-radius: 15px;
+
 }
 
 .fa-instagram:hover {
