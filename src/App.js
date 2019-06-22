@@ -18,7 +18,7 @@ class App extends Component {
             </Navigation>
         </Header>
         <Drawer className="drawer-color">
-        <h2>Built with MacBook Pro & React</h2>
+        <h2>Built with React</h2>
         <i class="fa fa-apple"></i>
             <Navigation>
                 <Link to="/resume">Resume</Link>
