@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 
 class Resume extends Component{
@@ -68,6 +69,31 @@ class Resume extends Component{
                     />
 
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
+                <h2>Primary qualifications</h2>
+                <Skills 
+                skill="Javascript"
+                progress={80}
+                />
+                 <Skills 
+                skill="Angular"
+                progress={70}
+                />
+                <Skills 
+                skill="React"
+                progress={45}
+                />
+                 <Skills 
+                skill="HTML/CSS"
+                progress={85}
+                />
+                <Skills 
+                skill="Java SE/EE"
+                progress={50}
+                />
+                 <Skills 
+                skill="SQL"
+                progress={60}
+                />
 
                     </Cell>
                 </Grid>

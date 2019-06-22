@@ -116,9 +116,12 @@ color: #fcb045;
 /* Resume CSS */
 
 .resume-right-col {
-  background: #27221F;
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
   color: white;
 }
+
 
 /* Contact CSS -----> */ 
 
