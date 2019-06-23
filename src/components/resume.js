@@ -28,7 +28,7 @@ class Resume extends Component{
                      He has been working with software solutions over the past year, with customers like Volvo Parts, where
                      he was tasked with analysing and creating software to tackle counterfeit products. 
                     </p>
-                    <hr style={{borderTop: '3px solid #009FFF', width: '50%'}} />
+                    <hr style={{borderTop: '3px solid #009FFF', width: '100%'}} />
                     <h5>Nationality</h5>
                     <p>Swedish</p>
                     <h5>Language</h5>
@@ -37,18 +37,27 @@ class Resume extends Component{
                     <p>Music, Cars, Floorball, Hockey, Technology and to travel the world</p>
                     <h5>Personal qualities</h5>
                     <p>Collaborative, team-oriented, supportive, positive and loyal</p>
-                    <hr style={{borderTop: '3px solid #009FFF', width: '50%'}} />
+                    <hr style={{borderTop: '3px solid #009FFF', width: '100%'}} />
                     <h5>Tools and OS</h5>
                     <Chip style={{background: '#009FFF' , color: 'white'}}>Visual Studio Code</Chip>
-                    <Chip style={{background: '#009FFF',color: 'white'}}>IntelliJ</Chip>
+                    <Chip style={{background: '#009FFF',color: 'white'}}>IntelliJ IDEA</Chip>
                     <br></br>
                     <Chip style={{background: '#009FFF',color: 'white'}}>MacOs</Chip>
                     <Chip style={{background: '#009FFF',color: 'white'}}>Windows 10</Chip>
+                    <br></br>
+                    <Chip style={{background: '#009FFF',color: 'white'}}>Git</Chip>
+                    <Chip style={{background: '#009FFF',color: 'white'}}>Jira</Chip>
+                    <hr style={{borderTop: '3px solid #009FFF', width: '100%'}} />
+                    <h5>Community Rates Games – A School Project</h5>
+                    <p>Created a website where you can rate games that you like. 
+                    Comparable to IMDB except this is for all kinds of video games.
+                    We built a backend written i Java, connected to a client written with Angular 7.
+                    </p>
+
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                     <h2>Education</h2>
                     <Education
-                    
                     startYear={2017}
                     endYear={2019}
                     schoolName="Yrgo Gothenburg"
@@ -57,14 +66,21 @@ class Resume extends Component{
                     />
 
                     <Education
+                    startYear={2014}
+                    endYear={2015}
+                    schoolName="Halmstad University"
+                    schoolDescription="Cisco Network Academy Program"
                     
+                    />
+
+                    <Education
                     startYear={2008}
                     endYear={2011}
                     schoolName="Jensen Education"
                     schoolDescription="Society Program"
                     
                     />
-                <hr style={{borderTop: '3px solid #c31432', width: '50%'}} />
+                <hr style={{borderTop: '3px solid #c31432', width: '100%'}} />
 
                     <h2>Professional Experience</h2>
                     <Experience 
@@ -92,7 +108,20 @@ class Resume extends Component{
                     
                     />
 
-                <hr style={{borderTop: '3px solid #c31432', width: '50%'}} />
+                    <Experience 
+                    startYear={2011}
+                    endYear={2018}
+                    jobName="Repairer at Göteborgs Spårvägar"
+                    jobDescription="I worked as service/repair man.
+                    I made services and repaired trams, everything from changing windshields, 
+                    repairing electric components and big security checks on trams before they enter daily traffic in Gothenburg. 
+                    This work taught me to work independently but also to work as a team. 
+                    I have a driver license for trams to be able to transport non-functional trams through the city. 
+                    When working here I finished an education for emergency driving (same as the police) to be able to help our tram drivers out in traffic."
+                    
+                    />
+
+                <hr style={{borderTop: '3px solid #c31432', width: '100%'}} />
                 <h2>Primary qualifications</h2>
                 <Skills 
                 skill="Javascript"

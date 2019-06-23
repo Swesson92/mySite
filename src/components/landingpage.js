@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import robbans from './assets/robbans.jpg'
 
-
-
 class Landingpage extends Component{
     render(){
         return(
