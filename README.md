@@ -1,4 +1,7 @@
-Learning React and setting up a webpage about myself.
+Learning React and setting up a webpage about myself. This site is now live through Github and Netlify with CI included.
+This means whenever I update the code it will automatically build and deploy.
+
+https://thirsty-jackson-904ef2.netlify.com/
 
 ### `npm start`
 
