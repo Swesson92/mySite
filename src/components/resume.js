@@ -18,9 +18,10 @@ class Resume extends Component{
             alt="avatar"
             className="cvbild"
             style={{height: '300px'}} />
-                    </div>
-                    <h2 style={{paddingTop: '1em'}}>Robin Svensson</h2>
-                    <h4 style={{color: 'grey'}}>Web Developer</h4>
+    </div>
+
+                <h2 style={{paddingTop: '1em'}}>Robin Svensson</h2>
+                <h4 style={{color: 'grey'}}>Web Developer</h4>
                     <p>
                      Robin is a Junior Java/Web developer with a passion for agile methodology.
                      He has experience working with both backend(Java), frontend (Angular/React) and Javascript development. 
@@ -53,7 +54,6 @@ class Resume extends Component{
                     Comparable to IMDB except this is for all kinds of video games.
                     We built a backend written i Java, connected to a client written with Angular 7.
                     </p>
-
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                     <h2>Education</h2>
@@ -62,7 +62,6 @@ class Resume extends Component{
                     endYear={2019}
                     schoolName="Yrgo Gothenburg"
                     schoolDescription="Java Enterprise Developer"
-                    
                     />
 
                     <Education
@@ -70,18 +69,16 @@ class Resume extends Component{
                     endYear={2015}
                     schoolName="Halmstad University"
                     schoolDescription="Cisco Network Academy Program"
-                    
                     />
 
                     <Education
                     startYear={2008}
                     endYear={2011}
                     schoolName="Jensen Education"
-                    schoolDescription="Society Program"
-                    
+                    schoolDescription="Society Program"  
                     />
-                <hr style={{borderTop: '3px solid #c31432', width: '100%'}} />
 
+                <hr style={{borderTop: '3px solid #c31432', width: '100%'}} />
                     <h2>Professional Experience</h2>
                     <Experience 
                     startYear={2018}
@@ -92,7 +89,7 @@ class Resume extends Component{
                     I created an Android application connected to backend services. 
                     The idea was that when products arrive at Volvo or their retailer the product will be scanned by the Android app and return if the product delivered is fake or legit.
                     A lot of thinking and discussion were included in the project, mainly for security and scalability reasons."
-                    
+                
                     />
 
                     <Experience 
@@ -123,26 +120,32 @@ class Resume extends Component{
 
                 <hr style={{borderTop: '3px solid #c31432', width: '100%'}} />
                 <h2>Primary qualifications</h2>
+                
                 <Skills 
                 skill="Javascript"
                 progress={80}
                 />
+
                  <Skills 
                 skill="Angular"
                 progress={70}
                 />
+
                 <Skills 
                 skill="React"
                 progress={45}
                 />
+
                  <Skills 
                 skill="HTML/CSS"
                 progress={85}
                 />
+
                 <Skills 
                 skill="Java SE/EE"
                 progress={50}
                 />
+
                  <Skills 
                 skill="SQL"
                 progress={60}
