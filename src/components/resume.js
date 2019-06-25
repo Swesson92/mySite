@@ -121,26 +121,28 @@ class Resume extends Component{
                 <hr style={{borderTop: '3px solid #c31432', width: '100%'}} />
                 <h2>Primary qualifications</h2>
                 
+
                 <Skills 
-                skill="Javascript"
-                progress={80}
+                skill="HTML/CSS"
+                progress={85}
                 />
 
-                 <Skills 
+                <Skills 
                 skill="Angular"
                 progress={70}
                 />
 
                 <Skills 
+                skill="Javascript"
+                progress={60}
+                />
+
+                <Skills 
                 skill="React"
-                progress={45}
+                progress={50}
                 />
 
-                 <Skills 
-                skill="HTML/CSS"
-                progress={85}
-                />
-
+    
                 <Skills 
                 skill="Java SE/EE"
                 progress={50}
