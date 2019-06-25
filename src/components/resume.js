@@ -3,7 +3,7 @@ import {Grid, Cell, Chip} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import cvbild from './assets/cvbild.jpg';
+import robbans from './assets/robbans.jpg';
 
 
 class Resume extends Component{
@@ -14,7 +14,7 @@ class Resume extends Component{
                     <Cell className="resume-left-col" col={4}>
                     <div style={{textAlign: 'center'}}>
                     <img 
-            src={cvbild}
+            src={robbans}
             alt="avatar"
             className="cvbild"
             style={{height: '300px'}} />

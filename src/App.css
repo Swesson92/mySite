@@ -6,7 +6,7 @@ font-size: 2em;
 }
 
 .fa-code {
-  color: white;
+  color: aqua;
 }
 
 .header-color span {
@@ -26,11 +26,12 @@ font-size: 2em;
 }
 
 .landing-grid {
- /* background: #0F2027; 
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
-
-  background-image: url("https://www.simea.com/wp-content/uploads/2018/07/ict.jpg");
+/*
+background: #0F2027; 
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+*/
+background-image: url("https://www.simea.com/wp-content/uploads/2018/07/ict.jpg");
 text-align: center;
 position: fixed;
 top: 0;
@@ -41,7 +42,7 @@ height: 100%;
 }
 
 .avatar-img {
-  height: 350px;
+  height: 300px;
   padding-top: 5em;
   border-radius: 15px;  
 }
@@ -63,12 +64,9 @@ color: #fcb045;
 }
 
 .banner-text {
-  background-color: black;
   opacity: .8;
   width: 50%;
-  margin: auto;
-  border-radius: 10px;
-  
+  margin: auto;  
 }
 
 .banner-text h1 {
@@ -88,6 +86,7 @@ color: #fcb045;
   font-family: Garamond;
   font-size: 20px;
   padding: 1em;
+
 }
 
 .social-links {
@@ -95,11 +94,12 @@ color: #fcb045;
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  color: white;
 
 }
 
 .social-links i {
-  color: white;
+  color: white !important;
   font-size: 5em;
   padding: 8xp;
 }
@@ -196,14 +196,71 @@ color: #fcb045;
   padding-right: 5rem;
 }
 
-.fa-linkedin:hover {
-  color: #0077B5;
+.contact-img {
+  border-radius: 10px;
 }
 
-.fa-slack:hover{
-  color: #3F0F3F;
+ /* End of contact CSS */
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 200px;
 }
 
-.fa-phone:hover{
+.fa-linkedin-square {
+  background: radial-gradient(circle at 30% 107%, #009cda 0%,#009cda 5%, #009cda 45%, #009cda  60%, #009cda 90%);
+  -webkit-background-clip: text;
+
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white;
+  
+  font-size: 200px;
+}
+
+.fa-github-square {
+  background: radial-gradient(circle at 30% 107%, #4078c0 0%, #4078c0 5%,  #4078c0  60%, #4078c0 90%);
+  -webkit-background-clip: text;
+
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white;
+  
+  font-size: 50px;
+}
+
+.fa-youtube-square {
+  
+  background: radial-gradient(circle at 30% 107%, #ff0000 0%,  #ff0000  60%, #ff0000);
+  -webkit-background-clip: text;
+
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+  font-size: 100px;
+}
+
+
+
+
+.fa-phone{
   color: #24FE41;
+}
+
+.fa-slack {
+  color: purple;
+}
+
+.fa-linkedin {
+  color: #009cda;
+}
+
+.fa-envelope {
+   color: orange;
 }

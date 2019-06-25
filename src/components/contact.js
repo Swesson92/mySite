@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-import robins from './assets/robins.jpg'
+import robinn from './assets/robinn.jpg'
 
 
 class Contact extends Component{
@@ -11,12 +11,13 @@ class Contact extends Component{
             <Cell col={6}>
             <h2>Robin Svensson</h2>
             <img 
-            src={robins}
+            src={robinn}
             alt="avatar"
+            className="contact-img"
             style={{height: '250px'}}
             />
             <p style={{width: "75%" , margin: "auto", paddingTop: "1em" }}>
-            Hello there! 
+            Hello! 
             <br></br>
             My name is Robin and I am a newly educated Java/Web Devevloper, still looking for a future job.
             I am 27 years old and live in Sweden. Beside programming, I am a big fan of Hockey, Football and travel.

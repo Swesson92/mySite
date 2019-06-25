@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import robbans from './assets/robbans.jpg'
 
 class Landingpage extends Component{
     render(){
@@ -9,7 +8,7 @@ class Landingpage extends Component{
             <Grid className="landing-grid">
             <Cell col={12}>
             <img 
-            src={robbans}
+            src={"https://www.pngarts.com/files/3/Cool-Avatar-Transparent-Image.png"}
             alt="avatar"
             className="avatar-img"
              

@@ -10,7 +10,7 @@ class App extends Component {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="Robin Svensson" >
+        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}> </span>Robin Svensson</span>}>
         {/* code */}
         <a href="/" rel="noopener noreferrer">
                 <i className="fa fa-code" />
