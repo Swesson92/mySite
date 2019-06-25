@@ -92,7 +92,22 @@ class Projects extends Component{
                 </div>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://study.com/cimages/videopreview/videopreview-full/059tmsbnjx.jpg) center / cover'}}>Java Fight</CardTitle>
+                    <CardText>
+                    A simple fighting program written in Java SE. This is a school project, where the user input is needed to start the fight.
+                    </CardText>
+                    <CardActions border>
+                    <div className="gittis">
+                    <a href="https://github.com/Swesson92/fightProgram" rel="noopener noreferrer"target="_blank">
+                        <i className="fa fa-github-square"  aria-hidden="true"/>
+                    </a>
+                </div>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
                 </Card>
                 </div>
@@ -100,7 +115,26 @@ class Projects extends Component{
         }
         else if(this.state.activeTab === 3){
             return (
-            <div><h1>This is SQL</h1></div>
+            <div className="javascript">
+            <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://actiwate.in/wp-content/uploads/2017/08/javascript-logo.jpg) center / cover'}}>BlackJack</CardTitle>
+                    <CardText>
+                    A simple BlackJack card game written with Javascript.
+                    </CardText>
+                    <CardActions border>
+                    <div className="gittis">
+                    <a href="https://github.com/Swesson92/BlackJack" rel="noopener noreferrer"target="_blank">
+                        <i className="fa fa-github-square"  aria-hidden="true"/>
+                    </a>
+                </div>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                    </CardMenu>
+                </Card>
+            
+            
+            
+            </div>
             )
         }
     
@@ -113,7 +147,7 @@ class Projects extends Component{
             <Tab>React</Tab>
             <Tab>Angular</Tab>
             <Tab>Java</Tab>
-            <Tab>SQL</Tab>
+            <Tab>Javascript</Tab>
             </Tabs>
 
             
