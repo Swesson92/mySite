@@ -3,7 +3,7 @@ import {Grid, Cell, Chip} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import robbans from './assets/robbans.jpg';
+import profilepics from './assets/profilepics.jpg';
 
 
 class Resume extends Component{
@@ -14,7 +14,7 @@ class Resume extends Component{
                     <Cell className="resume-left-col" col={4}>
                     <div style={{textAlign: 'center'}}>
                     <img 
-            src={robbans}
+            src={profilepics}
             alt="avatar"
             className="cvbild"
             style={{height: '300px'}} />
@@ -35,13 +35,12 @@ class Resume extends Component{
                     <h5>Language</h5>
                     <p>English (fluent), Swedish (fluent), Spanish(beginner)</p>
                     <h5>Interests and hobbies</h5>
-                    <p>Music, Cars, Floorball, Hockey, Technology and to travel the world</p>
+                    <p>Music, Floorball, Hockey, Technology and to travel</p>
                     <h5>Personal qualities</h5>
-                    <p>Collaborative, team-oriented, supportive, positive and loyal</p>
+                    <p>Collaborative, team-oriented, supportive and posetive</p>
                     <hr style={{borderTop: '3px solid #009FFF', width: '100%'}} />
                     <h5>Tools and OS</h5>
                     <Chip style={{background: '#009FFF' , color: 'white'}}>Visual Studio Code</Chip>
-                    <Chip style={{background: '#009FFF',color: 'white'}}>IntelliJ IDEA</Chip>
                     <br></br>
                     <Chip style={{background: '#009FFF',color: 'white'}}>MacOs</Chip>
                     <Chip style={{background: '#009FFF',color: 'white'}}>Windows 10</Chip>

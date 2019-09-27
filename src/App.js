@@ -19,7 +19,7 @@ class App extends Component {
                 <Link to="/projects">Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to ="/showflights">Flight Radar</Link>
+                <Link to ="/showflights">Airplanes API</Link>
             </Navigation>
         </Header>
         <Content>

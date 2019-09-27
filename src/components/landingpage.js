@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+import robins from './assets/robins.jpg';
 
 class Landingpage extends Component{
     render(){
@@ -8,7 +9,7 @@ class Landingpage extends Component{
             <Grid className="landing-grid">
             <Cell col={12}>
             <img 
-            src={"https://www.pngarts.com/files/3/Cool-Avatar-Transparent-Image.png"}
+            src={robins}
             alt="avatar"
             className="avatar-img"
              
@@ -35,12 +36,6 @@ class Landingpage extends Component{
                 <a href="https://www.instagram.com/swesson92/?hl=sv" rel="noopener noreferrer"target="_blank">
                 <i className="fa fa-instagram" aria-hidden="true"/>
                 </a>
-
-                {/* Youtube */}
-                <a href="https://www.youtube.com/channel/UCBytif0ryd8uYAs_y8KCUgQ?view_as=subscriber" rel="noopener noreferrer"target="_blank">
-                <i className="fa fa-youtube-square"  aria-hidden="true"/>
-                </a>
-
                 </div>
 
                 </div>

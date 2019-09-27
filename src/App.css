@@ -31,7 +31,9 @@ background: #0F2027;
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
 background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 */
-background-image: url("https://www.simea.com/wp-content/uploads/2018/07/ict.jpg");
+
+background-image: url("https://media0.giphy.com/media/5oOGaCSdfdTfq/giphy.gif");
+
 text-align: center;
 position: fixed;
 top: 0;
