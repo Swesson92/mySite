@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Forms from './forms';
+import Form from './forms';
 import Titles from './titles';
 import Weather from './weather';
 
@@ -16,10 +16,12 @@ class Weatherservice extends Component {
     }
     getWeather = async (e) => {
         e.preventDefault();
-        const city = e.target.element.city.value;
-        const country = e.target.element.country.value;
+        const city = e.target.elements.city.value;
+        const country = e.target.elements.country.value;
         const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
         const data = api_call.json();
+
+        console.log(data);        
 
         //To check after data
         if(city && country){
@@ -30,15 +32,13 @@ class Weatherservice extends Component {
                 humidity: data.sys.humidity,
                 description: data.weather[0].description,
                 error: ""
-            });
-
+            });        
         } else {
             this.setState({
                 temperature: undefined,
                 city: undefined,
                 country: undefined,
                 humidity: undefined,
-                description: undefined,
                 description: undefined,
                 error: "Please enter values"
             });

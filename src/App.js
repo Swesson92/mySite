@@ -20,6 +20,7 @@ class App extends Component {
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to ="/showflights">Airplanes API</Link>
+                <Link to ="/weather">Live Weather</Link>
             </Navigation>
         </Header>
         <Content>
