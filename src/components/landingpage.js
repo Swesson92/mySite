@@ -5,7 +5,7 @@ import robins from './assets/robins.jpg';
 class Landingpage extends Component{
     render(){
         return(
-            <div style={{width: '100%', margin: 'auto'}}>
+            <div className="landingpage">
             <Grid className="landing-grid">
             <Cell col={12}>
             <img 

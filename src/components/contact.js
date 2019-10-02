@@ -32,6 +32,7 @@ class Contact extends Component{
         <div className="contact-list">
 
             <List>
+                <div className="testardetta">
                 <ListItem>
                     <ListItemContent style={{fontSize: "25px", color: "white",  fontFamily: 'Oxygen'}}>
                     <i className="fa fa-phone" aria-hidden="true"/>
@@ -56,6 +57,7 @@ class Contact extends Component{
                     swesson92@gmail.com | Robin
                     </ListItemContent>
                 </ListItem>
+                </div>
             </List>
             </div>
 
