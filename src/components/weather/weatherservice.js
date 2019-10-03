@@ -47,7 +47,7 @@ class Weatherservice extends Component {
 
     render() {
         return (
-          <div>
+          <div className = "weatherstyling">
             <div className="wrapper">
               <div className="main">
                 <div className="container">

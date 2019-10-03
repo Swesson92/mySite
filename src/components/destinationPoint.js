@@ -1,6 +1,3 @@
-// Taken from https://stackoverflow.com/questions/19352921/how-to-use-direction-angle-and-speed-to-calculate-next-times-latitude-and-longi
-// with small modifications to fit our usecase
-
 /**
  * Returns the destination point from a given point, having travelled the given distance
  * on the given initial bearing.

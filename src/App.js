@@ -9,7 +9,7 @@ class App extends Component {
   render() {
   return (
     <div className="demo-big-content">
-    <Layout>
+        <Layout>
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}> </span>Robin Svensson</span>}>
         {/* code */}
         <a href="/" rel="noopener noreferrer">
@@ -28,6 +28,7 @@ class App extends Component {
             <Main/>
         </Content>
     </Layout>
+    
 </div>
   );
 }
