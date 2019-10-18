@@ -26,10 +26,7 @@ class Aboutme extends Component{
       render() {
         return (
           <div className="App">
-            <header className="App-header">
-              <h1 className="App-title">Welcome to React</h1>
-            </header>
-            <p className="App-intro">{this.state.data}</p>
+            <p>{this.state.data}</p>
           </div>
         );
       }
