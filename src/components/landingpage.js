@@ -20,7 +20,7 @@ class Landingpage extends Component{
                 <hr/>
                 <p> JavaScript | React | Angular | Java | HTML / CSS </p>
 
-                <div class="social-links">
+                <div className="social-links">
 
                 {/* LinkedIn */}
                 <a href="https://www.linkedin.com/in/robin-svensson-4a0916165/" rel="noopener noreferrer"target="_blank">
