@@ -5,7 +5,6 @@ import Experience from './experience';
 import Skills from './skills';
 import profilepics from './assets/profilepics.jpg';
 
-
 class Resume extends Component{
     render(){
         return(
