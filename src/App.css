@@ -1,35 +1,24 @@
+/* Color of navbar */
 .header-color{
 background: #2c3e50;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #203A43, #203A43, #0F2027);  
 background: linear-gradient(to right, #203A43, #203A43, #0F2027); 
 font-size: 2em;
-
-}
-
-.fa-code {
-  color: aqua;
-}
-
-.header-color span {
-  align-self: auto;
 }
 
 .drawer-color h2{
   font-size: 12px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  
-  
 }
 
 .demo-big-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
-
-.drawer-color i {
-  align-self: center;
-  font-size: 30px;
+.fa-code {
+  color: aqua;
 }
 
 .landing-grid {
@@ -42,12 +31,7 @@ background-image: url("https://media0.giphy.com/media/5oOGaCSdfdTfq/giphy.gif");
 text-align: center;
 display: flex;
 flex-direction: column;
-
-
 }
-
-
-
 .avatar-img {
   height: 280px;
   padding-top: 2em;
