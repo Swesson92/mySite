@@ -8,10 +8,14 @@ import './App.css';
 class App extends Component {
   render() {
   return (
+
+    <div className="App">
+
+    </div>
+      /*
     <div className="demo-big-content">
         <Layout>
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}> </span>Robin Svensson</span>}>
-        {/* code */}
         <a href="/" rel="noopener noreferrer">
                 <i className="fa fa-code" />
                 </a>
@@ -30,6 +34,7 @@ class App extends Component {
     </Layout>
     
 </div>
+*/
   );
 }
 }
