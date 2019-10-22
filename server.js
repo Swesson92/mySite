@@ -23,12 +23,12 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // create a GET route
 app.get('/express_backend', (req, res) => {
-  res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
+  res.send({ express: 'Express backend connected. You can now post/register User(email, password)' });
 });
 
 // POST route to register a user
 app.post('/register', function(req, res, next) {
-    var user = new User(); // TypeError: User is not a constructor
+    var user = new User();
     user.email = req.body.email;
     user.password = req.body.password;
 
