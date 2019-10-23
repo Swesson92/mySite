@@ -3,8 +3,7 @@ import {Layout, Header, Navigation} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
 import './App.css';
-import ToggleButton from './components/SideDrawer/ToggleButton';
-import SideDrawer from './components/SideDrawer/SideDrawer';
+
 
 
 class App extends Component {
@@ -12,9 +11,8 @@ class App extends Component {
   return (  
     <div className="demo-big-content">
         <Layout>
-        <Header className="header-color" title={<span><ToggleButton/></span>}>
+        <Header className="header-color" title={<span>Robin</span>}>
         <div style={{height: '100%'}}>
-        <SideDrawer/>
         </div>
         <a href="/" rel="noopener noreferrer">
                 <i className="fa fa-code" />
