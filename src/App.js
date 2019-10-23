@@ -4,6 +4,7 @@ import Main from './components/main';
 import {Link} from 'react-router-dom';
 import './App.css';
 import ToggleButton from './components/SideDrawer/ToggleButton';
+import SideDrawer from './components/SideDrawer/SideDrawer';
 
 
 class App extends Component {
@@ -12,6 +13,9 @@ class App extends Component {
     <div className="demo-big-content">
         <Layout>
         <Header className="header-color" title={<span><ToggleButton/></span>}>
+        <div style={{height: '100%'}}>
+        <SideDrawer/>
+        </div>
         <a href="/" rel="noopener noreferrer">
                 <i className="fa fa-code" />
                 </a>
