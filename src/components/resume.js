@@ -137,7 +137,7 @@ class Resume extends Component{
 
                 <Skills 
                 skill="React"
-                progress={50}
+                progress={60}
                 />
 
     
