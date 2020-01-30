@@ -22,7 +22,6 @@ class App extends Component {
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to ="/weather">Live Weather</Link>
-                <Link to ="/aboutme">Log in</Link>
             </Navigation>
         </Header>
             <Main/>

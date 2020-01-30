@@ -17,16 +17,15 @@ class Contact extends Component{
             style={{height: '250px'}}
             />
             <p style={{width: "75%" , margin: "auto", paddingTop: "1em" }}>
-            Hello! 
+            Hey. 
             <br></br>
-            My name is Robin and I am a newly educated Java/Web Devevloper, still looking for a future job.
-            I am 27 years old and live in Sweden. Beside programming, I am a big fan of Hockey, Football and travel.
+            I am 27 years old and live in Sweden. Besides programming, I am a big fan of Hockey,Technology and to travel.
             <br></br>
-            If you find this website or me interesting, please contact me through any of the options to the right. 
+            If you find this website or me interesting, please contact me through any of the options to the right.
             </p>
             </Cell>
             <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2>Contact</h2>
             <hr/>
 
         <div className="contact-list">
@@ -49,12 +48,6 @@ class Contact extends Component{
                     <ListItemContent style={{fontSize: "25px", color: "white", fontFamily: 'Oxygen'}}>
                     <i className="fa fa-linkedin" aria-hidden="true"/>
                     Robin Svensson | LinkedIn
-                    </ListItemContent>
-                </ListItem>
-                <ListItem>
-                    <ListItemContent style={{fontSize: "25px", color: "white", fontFamily: 'Oxygen'}}>
-                    <i className="fa fa-slack" aria-hidden="true"/>
-                    swesson92@gmail.com | Robin
                     </ListItemContent>
                 </ListItem>
                 </div>

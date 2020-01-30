@@ -22,11 +22,12 @@ class Resume extends Component{
                 <h2 style={{paddingTop: '1em'}}>Robin Svensson</h2>
                 <h4 style={{color: 'grey'}}>Web Developer</h4>
                     <p>
-                     Robin is a Junior Java/Web developer with a passion for agile methodology.
+                     I am is a Web developer with a passion for all kinds of Technology.
                      He has experience working with both backend(Java), frontend (Angular/React) and Javascript development. 
-                     Robin is fond of creating value from data and display it in different forms.
+                     Im fond of creating value from data and display it in different forms.
                      He has been working with software solutions over the past year, with customers like Volvo Parts, where
-                     he was tasked with analysing and creating software to tackle counterfeit products. 
+                     he was tasked with analysing and creating software to tackle counterfeit products.
+                     Currently working at a software company called Travelize International AB in Gothenburg, Sweden.
                     </p>
                     <hr style={{borderTop: '3px solid #009FFF', width: '100%'}} />
                     <h5>Nationality</h5>
@@ -34,7 +35,7 @@ class Resume extends Component{
                     <h5>Language</h5>
                     <p>English (fluent), Swedish (fluent), Spanish(beginner)</p>
                     <h5>Interests and hobbies</h5>
-                    <p>Music, Floorball, Hockey, Technology and to travel</p>
+                    <p>Music, Football, Hockey, Technology and to travel</p>
                     <h5>Personal qualities</h5>
                     <p>Collaborative, team-oriented, supportive and posetive</p>
                     <hr style={{borderTop: '3px solid #009FFF', width: '100%'}} />
