@@ -123,17 +123,17 @@ class Resume extends Component{
 
                 <Skills 
                 skill="HTML/CSS"
-                progress={85}
+                progress={90}
                 />
 
                 <Skills 
                 skill="Angular"
-                progress={70}
+                progress={60}
                 />
 
                 <Skills 
                 skill="Javascript"
-                progress={60}
+                progress={70}
                 />
 
                 <Skills 
@@ -149,7 +149,7 @@ class Resume extends Component{
 
                  <Skills 
                 skill="SQL"
-                progress={60}
+                progress={75}
                 />
 
                     </Cell>
