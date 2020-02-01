@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 import robinn from './assets/robinn.jpg'
+import robbanhav from './assets/robbanhav.png'
 
 
 class Contact extends Component{
@@ -11,7 +12,7 @@ class Contact extends Component{
             <Cell col={6}>
             <h2>Robin Svensson</h2>
             <img 
-            src={robinn}
+            src={robbanhav}
             alt="avatar"
             className="contact-img"
             style={{height: '250px'}}

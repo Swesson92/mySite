@@ -4,6 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import profilepics from './assets/profilepics.jpg';
+import cool from './assets/cool.png'
 
 class Resume extends Component{
     render(){
@@ -13,7 +14,7 @@ class Resume extends Component{
                     <Cell className="resume-left-col" col={4}>
                     <div style={{textAlign: 'center'}}>
                     <img 
-            src={profilepics}
+            src={cool}
             alt="avatar"
             className="cvbild"
             style={{height: '300px'}} />
