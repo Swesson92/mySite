@@ -79,6 +79,18 @@ class Resume extends Component{
 
                 <hr style={{borderTop: '3px solid #c31432', width: '100%'}} />
                     <h2>Professional Experience</h2>
+
+                    <Experience 
+                    startYear={2019}
+                    endYear={2020}
+                    jobName="Systems Engineer/Web Developer."
+                    jobDescription="I currently work at a company called Travelize International AB.
+                    At this job, I do a lot of service on different kind of systems and some web development.
+                    I work with ASP,Javascript and CSS daily and the position includes some support of systems that is already up
+                    and running. We host all websites and systems ourself. Every week we publish new functions and updates systems continuously."
+                    
+                    />
+
                     <Experience 
                     startYear={2018}
                     endYear={2019}
@@ -101,19 +113,6 @@ class Resume extends Component{
                     Relevant data is later shown in our frontend client, written with Angular 7.
                     The purpose with developing this application is to collect and show all different services currently running in one place,
                     called Alten Monitoring System."
-                    
-                    />
-
-                    <Experience 
-                    startYear={2011}
-                    endYear={2018}
-                    jobName="Repairer at Göteborgs Spårvägar"
-                    jobDescription="I worked as service/repair man.
-                    I made services and repaired trams, everything from changing windshields, 
-                    repairing electric components and big security checks on trams before they enter daily traffic in Gothenburg. 
-                    This work taught me to work independently but also to work as a team. 
-                    I have a driver license for trams to be able to transport non-functional trams through the city. 
-                    When working here I finished an education for emergency driving (same as the police) to be able to help our tram drivers out in traffic."
                     
                     />
 
