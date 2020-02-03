@@ -36,7 +36,7 @@ class Resume extends Component{
                     <h5>Language</h5>
                     <p>English (fluent), Swedish (fluent), Spanish(beginner)</p>
                     <h5>Interests and hobbies</h5>
-                    <p>Music, Football, Hockey, Technology and to travel</p>
+                    <p>Technology, Football, Hockey, and to travel</p>
                     <h5>Personal qualities</h5>
                     <p>Collaborative, team-oriented, supportive and posetive</p>
                     <hr style={{borderTop: '3px solid #009FFF', width: '100%'}} />
