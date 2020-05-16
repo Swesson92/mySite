@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Content from './components/Toolbar/Content';
+import Contact from './components/Toolbar/Contact';
+import { Route } from "react-router-dom";
 
 class App extends Component {
   state = {
@@ -31,9 +34,9 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <main style={{marginTop: '64px'}}>
-          <p>This is the page content!</p>
         </main>
-        
+      <Route path="/content" component={Content} />
+      <Route path="/contact" component={Contact} />  
       </div>
     );
   }
