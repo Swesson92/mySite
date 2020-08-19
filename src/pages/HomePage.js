@@ -7,7 +7,7 @@ function HomePage(props){
 
     return (
 
-        <Hero />
+        <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
     );
 }
 

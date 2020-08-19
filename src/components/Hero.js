@@ -6,14 +6,16 @@ import Col from 'react-bootstrap/Col';
 
 
 
-function Hero(){
+function Hero(props){
     return(
        
        <Jumbotron>
            <Container>
                <Row>
                    <Col>
-                        <h2>Testing</h2>
+                   { props.title && <h1>{props.title}</h1> }
+                   { props.subTitle && <h2>{props.subTitle}</h2> }
+                   { props.text && <h3>{props.text}</h3> }
                    </Col>
                </Row>
            </Container>
