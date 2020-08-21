@@ -1,9 +1,13 @@
 import React from 'react';
-
-
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+
+
+import cykel from '../assets/images/cykel.JPG';
+import havet from '../assets/images/havet.jpg';
+import gbg from '../assets/images/gbg.jpg';
+
 
 class Carousel extends React.Component {
 
@@ -13,25 +17,25 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
-                   // imgSrc: ,
+                    title: 'Image bank',
+                    subTitle: 'A lot of different photos taken by me',
+                    imgSrc: cykel ,
                     link: 'https://devgrub.com',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
+                    title: 'Robin Svensson',
                     subTitle: 'YouTube channel',
-                  //  imgSrc: ,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    imgSrc: havet ,
+                    link: 'https://www.youtube.com/channel/UCTVRBrZVcraAzcWqRTchVTA/featured?view_as=subscriber',
                     selected: false
                 },
                 {
                     id: 2,
                     title: 'Evverest',
                     subTitle: 'A social network for developers',
-                 //   imgSrc: ,
+                    imgSrc: gbg ,
                     link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },
@@ -40,26 +44,28 @@ class Carousel extends React.Component {
     }
 
     //Metod för att endast visa info om 1 card i taget
-    handleCarcClick = (id,card) => {
+    handleCardClick = (id, card) => {
+
         let items = [...this.state.items];
 
         items[id].selected = items[id].selected ? false : true;
 
         items.forEach(item => {
-            if(items.id !== id){
-                items.selected = false;
+            if(item.id !== id) {
+                item.selected = false;
             }
         });
 
         this.setState({
             items
         });
-    } 
+    }
+
 
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} onClick={(e => this.handleCarcClick(item.id, e))} key={item.id} />
+            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
         });
     }
 
@@ -68,7 +74,7 @@ class Carousel extends React.Component {
         return(
             <Container fluid={true}>
                 <Row className="justify-content-around">
-                    {this.makeItems(this.state.items)};
+                    {this.makeItems(this.state.items)}
                 </Row>
             </Container>
         );

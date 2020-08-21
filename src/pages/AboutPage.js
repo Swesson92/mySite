@@ -5,7 +5,9 @@ function AboutPage(props){
 
     return (
 
-        <p>AboutPage works!</p>
+        <div>
+            <Hero title={props.title}/>
+        </div>
     );
 }
 
