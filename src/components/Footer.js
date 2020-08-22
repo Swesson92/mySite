@@ -13,7 +13,7 @@ function Footer(){
                         Robin Svensson
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                    This site was made with React.
+                    This website was development by myself.
                     </Col>
                 </Row>
             </Container>
