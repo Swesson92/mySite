@@ -20,7 +20,7 @@ class Carousel extends React.Component {
                     title: 'Image bank',
                     subTitle: 'A lot of different photos taken by me',
                     imgSrc: cykel ,
-                    link: 'https://devgrub.com',
+                    link: 'https://swesson92.imgur.com/all',
                     selected: false
                 },
                 {
