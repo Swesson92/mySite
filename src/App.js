@@ -23,8 +23,8 @@ class App extends Component{
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Aerial photo',
-        subTitle: 'Web development',
+        title: 'Web Development',
+        subTitle: 'Aerial photo',
         text: 'Feel free to contact me'
       },
       about: {

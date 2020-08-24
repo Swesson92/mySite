@@ -14,6 +14,8 @@ html {
     background: linear-gradient(to right, #ADA996, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       }
 
+/* Styling för cards på förstasidan */
+
 .g-card{
   margin: 20px;
   
@@ -44,5 +46,30 @@ html {
 .g-card-sub-title {
   font-size: 24px;
   margin: 0px;
+}
+
+/* Styling för social media ikoner */
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.instagram {
+ 
+  color: black;
+}
+
+a.github {
+  color: #4078c0;
 }
 
