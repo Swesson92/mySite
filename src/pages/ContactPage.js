@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Hero from '../components/Hero';
 
-class ContactPage extends React.Component(props){
+
+class ContactPage extends React.Component{
 
     constructor(props){
         super(props);
@@ -19,8 +21,10 @@ class ContactPage extends React.Component(props){
 
     render(){
     return (
-        
-        <p>ContactPage works!</p>
+        <div>
+        <Hero title={this.props.title}/>
+
+        </div>
     );
 
     }
