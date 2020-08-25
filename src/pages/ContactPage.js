@@ -31,7 +31,7 @@ class ContactPage extends React.Component {
 
 
             <Content>
-                <Form></Form>
+                <Form>
                     <Form.Group>
                         <Form.Label htmlfor="full-name">Full name</Form.Label>
                         <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}></Form.Control>
