@@ -23,6 +23,26 @@ class ContactPage extends React.Component {
 
     }
 
+    handleChange = (event) => {
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+
+        this.setState ({
+            [name]: value
+        });
+    }
+
+    //för att inte uppdatera sidan när man klickar send/man kan inte skicka flera mejl.
+    handleSubmit = (event) => {
+        event.preventDefault();
+
+        this.setState({
+            disabled: true,
+            emailSent: false
+        });
+    }
+
 
     render(){
     return (
@@ -31,14 +51,14 @@ class ContactPage extends React.Component {
 
 
             <Content>
-                <Form>
+                <Form onSubmit={this.handleSubmit}>
                     <Form.Group>
-                        <Form.Label htmlfor="full-name">Full name</Form.Label>
+                        <Form.Label htmlFor="full-name">Full name</Form.Label>
                         <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}></Form.Control>
                     </Form.Group>
 
                     <Form.Group>
-                        <Form.Label htmlfor="email">Email</Form.Label>
+                        <Form.Label htmlFor="email">Email</Form.Label>
                         <Form.Control id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange}></Form.Control>
                     </Form.Group>
 

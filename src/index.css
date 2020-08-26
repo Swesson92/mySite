@@ -49,7 +49,6 @@ html {
 }
 
 /* Styling för social media ikoner */
-
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
@@ -73,3 +72,14 @@ a.github {
   color: #4078c0;
 }
 
+/* Styling för error message mejl */
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
