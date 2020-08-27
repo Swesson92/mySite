@@ -33,10 +33,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
+                    title: 'Feel free to contact me for any business ideas.',
+                    subTitle: 'Email: robin.svensson06@gmail.com',
                     imgSrc: gbg ,
-                    link: 'https://github.com/garrettlove8/evverest',
+                  //  link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },
             ]

@@ -16,6 +16,7 @@ function Footer(){
                     <Socialmedia />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
+                        robin.svensson06@gmail.com
                     </Col>
                 </Row>
             </Container>

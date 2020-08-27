@@ -43,7 +43,7 @@
 
 /* Styling för social media ikoner */
 .social-container {
-    
+    align-content: center
 }
 
 a.social {
@@ -58,6 +58,7 @@ a.social:hover {
 
 a.youtube {
   color: #eb3223;
+  
 }
 
 a.instagram {
