@@ -33,13 +33,13 @@ class ContactPage extends React.Component {
         });
     }
 
-    //för att inte uppdatera sidan när man klickar send/man kan inte skicka flera mejl.
+    //för att inte uppdatera sidan när man klickar send/man kan inte skicka flera mejl. test test
     handleSubmit = (event) => {
         event.preventDefault();
 
         this.setState({
             disabled: true,
-            emailSent: false
+            emailSent: true
         });
     }
 
