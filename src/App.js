@@ -24,7 +24,7 @@ class App extends Component{
       ],
       home: {
         title: 'Web Development.',
-        subTitle: 'Aerial photo',
+        subTitle: 'Photography',
         text: 'Feel free to contact me'
       },
       about: {
