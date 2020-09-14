@@ -46,7 +46,7 @@ class ContactPage extends React.Component {
                 if(res.data.success) {
                     this.setState({
                         disabled: false,
-                        emailSent: true
+                        emailSent: false
                     });
                 } else {
                     this.setState({
@@ -70,7 +70,7 @@ class ContactPage extends React.Component {
     render() {
         return(
             <div>
-                <Hero title={this.props.title} />
+                <Hero title={this.props.title}/>
 
                 <Content>
                     <Form onSubmit={this.handleSubmit}>

@@ -15,7 +15,7 @@ function Footer(){
                     <Col className="p-0" md={3} sm={12}>
                     <Socialmedia />
                     </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
+                    <Col className="p-0 d-flex" md={3} sm={12}>
                     </Col>
                 </Row>
             </Container>

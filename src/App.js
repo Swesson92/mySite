@@ -31,7 +31,9 @@ class App extends Component{
         title: 'About Me'
       },
       contact: {
-        title: 'Let\'s Talk'
+        title: 'Let\'s Talk',
+        subTitle: 'Feel free to reach out to me with any ideas.',
+        text: 'Email: robin.svensson06@gmail.com'
       }
     }
   }
