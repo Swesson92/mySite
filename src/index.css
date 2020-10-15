@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #ff6e7f;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #94716B, #FBD786); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3D7EAA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     
       }
 
@@ -86,9 +87,15 @@ a.github {
 /* Rubrikerna förstasidan */ 
 
 .display-1 {
+  color:white;
   font-size: 50px !important
+ 
 }
 
 .display-4 {
+  color:white;
   font-size: 40px !important
+}
+.lead {
+  color:white;
 }
