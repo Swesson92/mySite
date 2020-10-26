@@ -9,7 +9,7 @@ function HeroSection() {
     <div className='hero-container'>
    {/*  <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
       <h1>Web Developer</h1>
-      <p>Photography/Drones</p>
+      <p>Photography / Video</p>
       <div className='hero-btns'>
         <Button
           className='btns'
