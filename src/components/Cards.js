@@ -22,6 +22,29 @@ function Cards() {
                         label='Landscape'
                         path='/content'
                         />
+                    </ul>
+
+                    <ul className="cards__items">
+                        <CardItems
+                        src='images/fiske.jpg'
+                        text='EXAMPLE TEXT BLABLABLA' 
+                        label='Street'
+                        path='/content'
+                        />
+
+                        <CardItems
+                        src='images/havet.jpg'
+                        text='EXAMPLE TEXT BLABLABLA' 
+                        label='Landscape'
+                        path='/content'
+                        />
+
+                        <CardItems
+                        src='images/havet.jpg'
+                        text='EXAMPLE TEXT BLABLABLA' 
+                        label='Landscape'
+                        path='/content'
+                        />
 
                     </ul>
 
