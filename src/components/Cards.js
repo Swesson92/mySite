@@ -29,18 +29,18 @@ function Cards() {
                         src='images/fiske.jpg'
                         text='EXAMPLE TEXT BLABLABLA' 
                         label='Street'
-                        path='/content'
+                        path='/about'
                         />
 
                         <CardItems
-                        src='images/havet.jpg'
+                        src='images/forest.jpg'
                         text='EXAMPLE TEXT BLABLABLA' 
                         label='Landscape'
-                        path='/content'
+                        path='/sign-up'
                         />
 
                         <CardItems
-                        src='images/havet.jpg'
+                        src='images/skog.jpg'
                         text='EXAMPLE TEXT BLABLABLA' 
                         label='Landscape'
                         path='/content'
