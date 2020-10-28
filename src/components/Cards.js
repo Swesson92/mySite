@@ -35,7 +35,7 @@ function Cards() {
                         <CardItems
                         src='images/forest.jpg'
                         text='EXAMPLE TEXT BLABLABLA' 
-                        label='Landscape'
+                        label='blablabla'
                         path='/sign-up'
                         />
 
