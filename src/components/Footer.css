@@ -47,9 +47,10 @@
   
   .footer-links {
     width: 100%;
-    max-width: 1000px;
+   /* max-width: 1000px; */
     display: flex;
     justify-content: center;
+    
   }
   
   .footer-link-wrapper {
@@ -100,8 +101,8 @@
   }
   
   .social-media {
-    max-width: 1000px;
-    width: 100%;
+  /*  max-width: 1000px; */
+     width: 100%;
   }
   
   .social-media-wrap {
