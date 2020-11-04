@@ -8,37 +8,37 @@ export default function Products() {
     const items = [
         {
           id: 1,
-          header: 'Lorem ipsum',
+          header: 'Dalsland',
           description:
-            'dolor sit amet, consectetur adipiscing elit.',
+            'Drönarbild från toppen Baljåsen, Dalsland',
           image: '/images/lakes.jpg'
         },
         {
           id: 2,
-          header: 'Sed cursus',
+          header: 'Random',
           description:
             'in metus quis tempor. Donec at venenatis magna',
           image: '/images/fiske.jpg'
         },
         {
           id: 3,
-          header: 'Sed fermentum',
+          header: 'Göteborg',
           description:
-            'condimentum purus, non sagittis massa faucibus id.',
+            'Utsikt över västa Göteborg',
           image: ' /images/gbg.jpg'
         },
         {
           id: 4,
-          header: 'Proin et urna',
+          header: 'Amundön',
           description:
-            'vitae neque fermentum fringilla.',
+            'Utanför Göteborg',
           image: '/images/havet.jpg'
         },
         {
           id: 5,
-          header: 'Cras leo velit',
+          header: 'Skog',
           description:
-            'finibus id eros eu,',
+            'fin skog hiihihihho',
           image: '/images/skog.jpg'
         }
       ]

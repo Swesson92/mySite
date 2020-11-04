@@ -45,9 +45,9 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to={{ pathname: "https://www.instagram.com/swesson92/"}} target="_blank">Instagram</Link>
-            <Link to=''>Youtube</Link>
-            <Link to='/'>LinkedIn</Link>
-            <Link to='/'>GitHub</Link>
+            <Link to={{ pathname: "https://www.youtube.com/channel/UCTVRBrZVcraAzcWqRTchVTA?view_as=subscriber"}} target="_blank">Youtube</Link>
+            <Link to={{ pathname: "https://www.linkedin.com/in/robin-svensson-4a0916165/"}} target="_blank">LinkedIn</Link>
+            <Link to={{ pathname: "https://github.com/Swesson92"}} target="_blank">GitHub</Link>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to={{ pathname: "https://www.youtube.com/channel/UCTVRBrZVcraAzcWqRTchVTA?view_as=subscriber"}}
               target='_blank'
               aria-label='Youtube'
             >
@@ -79,7 +79,7 @@ function Footer() {
     
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to={{ pathname: "https://www.linkedin.com/in/robin-svensson-4a0916165/"}}
               target='_blank'
               aria-label='LinkedIn'
             >
@@ -88,7 +88,7 @@ function Footer() {
 
             <Link
               class='social-icon-link github'
-              to='/'
+              to={{ pathname: "https://github.com/Swesson92"}}
               target='_blank'
               aria-label='Github'
             >
