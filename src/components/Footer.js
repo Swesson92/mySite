@@ -44,8 +44,8 @@ function Footer() {
         
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Youtube</Link>
+            <Link to={{ pathname: "https://www.instagram.com/swesson92/"}} target="_blank">Instagram</Link>
+            <Link to=''>Youtube</Link>
             <Link to='/'>LinkedIn</Link>
             <Link to='/'>GitHub</Link>
           </div>
@@ -62,7 +62,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to={{ pathname: "https://www.instagram.com/swesson92/"}}
               target='_blank'
               aria-label='Instagram'
             >
