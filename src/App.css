@@ -26,11 +26,11 @@
   }
   
   .about {
-    background-image: url('/images/gbg.jpg');
+    /* background-image: url('/images/gbg.jpg'); */
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #fff;
+    color: black;
     font-size: 100px;
   }
   
@@ -41,4 +41,21 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+  }
+
+
+  .progress-bar {
+    position: relative;
+    height: 20px;
+    width: 350px;
+    border-radius: 50px;
+    border: 1px solid #a3a3a3;
+  }
+
+  .filler {
+    background: #1da598;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+    
   }

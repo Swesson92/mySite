@@ -48,8 +48,8 @@ export default function Products() {
         <CardView
       items={items}
       activeColor='#000'
-      imageHeight='650px'
-      imageWidth='800px'
+      imageHeight='550px'
+      imageWidth='650px'
       align-items='center'
     />
     );
