@@ -6,7 +6,7 @@ class ProgressBarEx extends React.Component {
       super(props)
       
       this.state = {
-        percentage: 0
+        percentage: 60
       }
       
       this.nextStep = this.nextStep.bind(this)
